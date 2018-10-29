@@ -1,0 +1,65 @@
+@charset "utf-8";
+@import url("gg.css");
+@import url("globle.css");
+
+.add_select {
+  padding: 6px 20px;
+  background: #ffd800;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.glyphicon-plus {
+  color: #fff;
+}
+
+.row {
+  width: 100%;
+  margin: 0;
+  line-height: 50px;
+  background: #fff;
+  box-shadow: 0 0 5px #f1f1f1;
+}
+
+.box_list .col-lg-1,
+.box_list .col-lg-2,
+.box_list .col-lg-3 {
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.table_main_box {
+  margin-top: 4px;
+}
+
+.box_list .col-lg-1 img {
+  cursor: pointer;
+  width: 30%;
+}
+.box_list .col-lg-2 img{
+  width: 30px;
+  height: 30px;
+}
+.table_children {
+  padding: 0 4%;
+  margin: 4px 0;
+  border: 1px solid #f1f1f1;
+  background: #fff;
+  display: none;
+}
+.table_children .row {
+  box-shadow: none;
+}
+
+.table_children_main {
+  border-top: 1px solid #f1f1f1;
+}
+
+/* 下拉箭头旋转 */
+.rotate{
+  transform: rotate(90deg);
+}

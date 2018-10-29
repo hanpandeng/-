@@ -1,0 +1,132 @@
+@charset "utf-8";
+@import url("gg.css");
+@import url("globle.css");
+
+.table_header,
+.table_children_header {
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    background: #fff;
+    box-shadow: 0 0 5px #f1f1f1;
+    white-space: nowrap;
+}
+
+.table_children_header {
+    height: 80px;
+    line-height: 80px;
+    margin-top: 4px
+}
+
+.case_code {
+    width: 100px;
+}
+
+.table_children_header .edit {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+/* 修改场景 */
+.input-group {
+    box-shadow: 0 0 5px #e2e2e2;
+    background: #fff;
+    border: 1px solid #e2e2e2;
+    margin-top: 10px;
+}
+
+.input-group-addon,
+.form-control {
+    height: 50px;
+    background: #fff;
+    border: none;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.input-group-addon {
+    font-weight: 600;
+}
+
+.Submission {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    /* margin-right: 20px; */
+}
+
+.shangchuan {
+    width: 100%;
+    height: 140px;
+    padding: 10px 0;
+    display: flex;
+    margin-top: 10px;
+    box-shadow: 0 0 5px #e2e2e2;
+    /* background: #f9f9f9; */
+}
+
+.tupian {
+    color: #555;
+    text-align: center;
+    line-height: 120px;
+    padding: 0 12px;
+}
+
+/* 遮罩层 */
+.modify_box {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    display: none
+}
+
+.modify {
+    width: 500px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+.modity_header {
+    color: #ffd800;
+    font-size: 20px
+}
+
+.modity_header i {
+    color: #ffd800;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.modify footer {
+    margin-top: 20px;
+}
+
+.modify button {
+    color: #fff;
+    padding: 6px 20px;
+    border: none;
+    background: #ffd800;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.modify .cancel {
+    background: #ccc;
+}

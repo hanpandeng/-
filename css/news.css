@@ -1,0 +1,104 @@
+@charset "utf-8";
+@import url("gg.css");
+@import url("shijian.css");
+
+
+.input-group {
+    width: 300px;
+    box-shadow: 0 0 5px #e2e2e2;
+    background: #fff;
+}
+
+.input-group-addon,
+.form-control {
+    height: 50px;
+    background: #fff;
+    border: none;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.input-group-addon {
+    font-weight: 600;
+}
+
+.Submission {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-right: 20px;
+}
+
+.button_box {
+    white-space: nowrap;
+}
+
+.button_box button {
+    color: #fff;
+    padding: 6px 20px;
+    border: none;
+    border-radius: 20px;
+    background: #ffd800;
+    margin-left: 10px;
+}
+
+.list_box li {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.table_header,
+.table_children_header {
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    background: #fff;
+    box-shadow: 0 0 5px #f1f1f1;
+    white-space: nowrap;
+}
+
+.table_children_header {
+    height: 80px;
+    line-height: 80px;
+    margin-top: 4px
+}
+
+
+.case_code {
+    width: 60px;
+}
+
+.table_children_header a img {
+    width: 35px;
+    height: 35px;
+}
+
+/* 分页 */
+.pagination>li>a,
+.pagination>li>span {
+    color: #666;
+    padding: 8px 20px;
+    border: none;
+    margin-left: 10px;
+    border-top-left-radius: 50% !important;
+    border-bottom-right-radius: 50% !important;
+    border-bottom-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    box-shadow: 0 0 5px #f1f1f1;
+    overflow: hidden;
+}
+
+
+.pagination>li>a:hover,
+.pagination>li>span:hover {
+    color: #fff;
+    background: #ffd800;
+}

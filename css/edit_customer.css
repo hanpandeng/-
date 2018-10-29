@@ -1,0 +1,148 @@
+@charset "utf-8";
+@import url("gg.css");
+@import url("globle.css");
+
+
+.Submission {
+    margin-bottom: 20px;
+}
+
+.opt_select {
+    width: 300px;
+    position: relative;
+}
+
+.input-group {
+    width: 100%;
+    margin-top: 4px;
+    box-shadow: 0 0 5px #e2e2e2;
+    background: #fff;
+}
+
+.input-group-addon,
+.form-control {
+    height: 50px;
+    background: #fff;
+    border: none;
+    box-shadow: none;
+}
+
+.form-control[readonly] {
+    background: #fff;
+    color: #666;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.input-group-addon {
+    font-weight: 600;
+}
+
+.input-group_box {
+    width: 100%;
+    max-height: 500px;
+    padding: 5px 0;
+    background: #fff;
+    box-shadow: 0 0 5px #e2e2e2;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: none;
+    z-index: 3;
+    overflow-y: auto;
+}
+
+.icon-xialajiantouxiao {
+    color: #ffd800;
+    float: right;
+}
+
+.one_select {
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
+
+.two_select {
+    position: absolute;
+    top: 50px;
+    left: 102%;
+}
+
+.three_select {
+    position: absolute;
+    top: 50px;
+    left: 204%;
+}
+
+.li_click {
+    background: #ffd800;
+    color: #fff;
+}
+
+.i_click {
+    color: #fff;
+}
+
+.input-group_box b {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    line-height: 30px;
+    padding: 0 10px;
+}
+
+.input-group_box li {
+    width: 100%;
+    line-height: 40px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.input-group_box li:hover {
+    color: #fff;
+    background: #ffd800 !important;
+    transition: all .5s;
+}
+
+.input-group_box li:hover i {
+    color: #fff;
+    transition: all .5s;
+}
+
+.shangchuan {
+    width: 100%;
+    height: 140px;
+    padding: 10px 0;
+    margin-top: 4px;
+    box-shadow: 0 0 5px #e2e2e2;
+    background: #fff;
+    display: flex;
+}
+
+.tupian {
+    font-weight: 600;
+    color: #555;
+    text-align: center;
+    line-height: 120px;
+    padding: 0 12px;
+}
+
+.button_box {
+    white-space: nowrap;
+    margin-top: 40px;
+}
+
+.button_box button {
+    color: #fff;
+    padding: 6px 20px;
+    border: none;
+    border-radius: 20px;
+    background: #ffd800;
+    margin-left: 10px;
+}
+
+.button_box .reset {
+    background: #ccc;
+}

@@ -1,0 +1,108 @@
+@charset "utf-8";
+@import url("gg.css");
+@import url("globle.css");
+
+
+.input-group {
+    width: 100%;
+    box-shadow: 0 0 5px #e2e2e2;
+    background: #fff;
+}
+
+.input-group-addon,
+.form-control {
+    height: 50px;
+    background: #fff;
+    border: none;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.input-group-addon {
+    font-weight: 600;
+}
+
+.Submission>.input-group,
+.shangchuan {
+    margin-top: 4px;
+}
+
+.shangchuan {
+    width: 100%;
+    height: 140px;
+    padding: 10px 0;
+    box-shadow: 0 0 5px #e2e2e2;
+    background: #fff;
+    display: flex;
+}
+
+.tupian {
+    font-weight: 600;
+    color: #555;
+    text-align: center;
+    line-height: 120px;
+    padding: 0 12px;
+}
+
+.brief {
+    padding: 20px 0 0 20px;
+    font-weight: 600;
+}
+
+.button_box button {
+    color: #fff;
+    padding: 6px 30px;
+    border: none;
+    border-radius: 20px;
+    background: #ffd800;
+    margin: 20px 0 20px 20px;
+}
+
+.button_box .cancel {
+    background: #ccc;
+}
+
+/* 方案列表 */
+.programme_box {
+    /* width: 60%; */
+    margin-top: 50px;
+    box-shadow: 0 0 5px #e2e2e2;
+}
+
+.programme_box li {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.programme_box .row {
+    height: 50%;
+    line-height: 50px;
+    margin: 0 0 4px 0;
+    text-align: center;
+    background: #fff;
+    border-bottom: 1px solid #e2e2e2;
+    white-space: nowrap;
+
+}
+
+.add_case{
+    color: #fff;
+    padding: 6px 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    background: #ffd800;
+}
+.programme_box .col-lg-2 img {
+    height: 50px;
+    padding: 2% 0;
+}
+
+.programme_box .delete {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}

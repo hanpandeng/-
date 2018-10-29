@@ -1,0 +1,165 @@
+@charset "utf-8";
+@import url("gg.css");
+@import url("shijian.css");
+
+
+.input-group {
+    box-shadow: 0 0 5px #e2e2e2;
+    background: #fff;
+}
+
+.input-group-addon,
+.form-control {
+    height: 50px;
+    background: #fff;
+    border: none;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.input-group-addon {
+    font-weight: 600;
+}
+
+.Submission {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-right: 20px;
+}
+
+/* ******** */
+
+.button_box {
+    white-space: nowrap;
+    margin-left: 20%;
+}
+
+.button_box button {
+    color: #fff;
+    padding: 6px 20px;
+    border: none;
+    border-radius: 20px;
+    background: #ffd800;
+    margin-left: 10px;
+}
+
+/* ******** */
+
+.list_box li {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.table_header,
+.table_children_header {
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    background: #fff;
+    box-shadow: 0 0 5px #f1f1f1;
+    white-space: nowrap;
+}
+
+.confirm_box {
+    display: none;
+}
+
+.confirm,
+.cancel {
+    padding: 8px 12px;
+    color: #fff;
+    background: #ffd800;
+    border-radius: 20px;
+    margin: 0 4px;
+    cursor: pointer;
+}
+
+.cancel {
+    background: #f14141;
+}
+
+.row {
+    width: 100%;
+    margin: 0;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background: #fff;
+    white-space: nowrap;
+    box-shadow: 0 0 5px #f1f1f1;
+}
+
+.list_box .col-lg-9,
+.list_box .col-lg-7 {
+    text-align: left;
+    border: none;
+}
+
+.table_main_box {
+    margin-top: 4px;
+}
+
+.table_children {
+    padding: 0 0 0 4%;
+    margin: 4px 0;
+    border: 2px dashed #f1f1f1;
+    background: #fff;
+    display: none;
+}
+
+.table_children_main {
+    border-top: 1px dotted #f1f1f1;
+}
+
+.table_children .row {
+    box-shadow: none;
+}
+
+.case_code {
+    width: 100px;
+}
+
+.table_main_box img {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.shelf {
+    cursor: pointer;
+}
+
+.rotate {
+    transform: rotate(90deg);
+}
+
+/* 分页 */
+.pagination>li>a,
+.pagination>li>span {
+    color: #666;
+    padding: 8px 20px;
+    border: none;
+    margin-left: 10px;
+    border-top-left-radius: 50% !important;
+    border-bottom-right-radius: 50% !important;
+    border-bottom-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    box-shadow: 0 0 5px #f1f1f1;
+    overflow: hidden;
+}
+
+
+.pagination>li>a:hover,
+.pagination>li>span:hover {
+    color: #fff;
+    background: #ffd800;
+}

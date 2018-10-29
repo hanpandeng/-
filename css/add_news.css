@@ -1,0 +1,51 @@
+@charset "utf-8";
+@import url("gg.css");
+@import url("globle.css");
+@import url("../editor/themes/default/default.css");
+
+
+.redact_box {}
+
+.input-group ,.shangchuan{
+    margin-bottom: 10px;
+    box-shadow: 0 0 5px #e2e2e2;
+    background: #fff;
+}
+
+.input-group-addon,
+.form-control {
+    height: 50px;
+    background: #fff;
+    border: none;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.input-group-addon,.tupian {
+    font-weight: 600
+}
+
+.shangchuan{
+    width: 100%;
+    height: 140px;
+    padding: 10px 0;
+    display: flex;
+}
+.tupian{
+    color: #555;
+    text-align: center;
+    line-height: 120px;
+    padding: 0 12px;
+}
+.save{
+    width: 100px;
+    height: 40px;
+    color: #fff;
+    background: #ffd800;
+    border: none;
+    border-radius: 20px;
+    margin-top: 30px;
+}

@@ -1,0 +1,82 @@
+@charset "utf-8";
+@import url("gg.css");
+
+
+
+.banner_box {
+    width: 100%;
+}
+
+.banner_children {
+    width: 350px;
+    height: 220px;
+    padding: 10px;
+    margin: 0 60px 60px 0;
+    background: #ffff;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #e8d87a;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.banner_children img {
+    width: 100%;
+    height: 100%;
+}
+
+.banner_slide {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(143, 140, 140, 0.3);
+    display: none;
+}
+
+.order_box {
+    width: 100%;
+    padding: 10px;
+    margin-top: 35px;
+}
+
+.order {
+    color: #f5f5ff;
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: 10px;
+}
+
+.order span {
+    font-weight: normal;
+}
+
+.button_box {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 30px;
+}
+
+.button_box button {
+    width: 100px;
+    height: 35px;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    margin: 0 20px;
+}
+
+.redact {
+    background: #FFD800;
+}
+
+
+.delete {
+    background: #e76a6a;
+}

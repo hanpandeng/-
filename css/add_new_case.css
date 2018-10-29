@@ -1,0 +1,211 @@
+@charset "utf-8";
+@import url("gg.css");
+@import url("globle.css");
+@import url("http://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+
+.input-group {
+    width: 100%;
+    box-shadow: 0 0 5px #e2e2e2;
+    background: #fff;
+}
+
+.input-group-addon,
+.form-control {
+    height: 50px;
+    background: #fff;
+    border: none;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.input-group-addon {
+    font-weight: 600;
+}
+
+.shangchuan {
+    width: 100%;
+    height: 140px;
+    padding: 10px 0;
+    box-shadow: 0 0 5px #e2e2e2;
+    background: #fff;
+    display: flex;
+}
+
+.tupian {
+    font-weight: 600;
+    color: #555;
+    text-align: center;
+    line-height: 120px;
+    padding: 0 12px;
+}
+
+.add_box {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.add_to {
+    width: 100px;
+    position: relative;
+    margin-right: 20px;
+}
+
+.add_to input {
+    width: 100px;
+    height: 30px;
+    color: #fff;
+    border: none;
+    box-shadow: 0 0 5px #e2e2e2;
+    text-align: center;
+    border-radius: 20px;
+    background: #ffd800;
+}
+
+.add_to .remove {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: -5px;
+    right: -8px;
+    cursor: pointer;
+}
+
+.Submission>.input-group,
+.shangchuan {
+    margin-top: 4px;
+}
+
+.append,
+.history {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.brief {
+    padding: 20px 0 0 20px;
+    font-weight: 600;
+}
+
+.button_box button {
+    color: #fff;
+    padding: 6px 30px;
+    border: none;
+    border-radius: 20px;
+    background: #ffd800;
+    margin: 20px 0 20px 20px;
+}
+
+.button_box .cancel {
+    background: #ccc;
+}
+
+
+/* 评分 */
+
+.rating-stars .rating-stars-container .rating-star {
+    display: inline-block;
+    font-size: 20px;
+    color: #ccc;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.rating-stars .rating-stars-container .rating-star.is--active,
+.rating-stars .rating-stars-container .rating-star.is--hover {
+    color: #f1c40f;
+}
+
+.rating-stars .rating-stars-container .rating-star.is--no-hover {
+    color: #ccc;
+}
+
+/* 历史纪录弹窗 */
+.record_box {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    display: none;
+}
+
+.record {
+    width: 800px;
+    height: 400px;
+    padding: 0 20px;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.record header {
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+}
+
+.record header p {
+    line-height: 50px;
+    font-size: 18px;
+}
+
+.record header img {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.record_main {
+    width: 100%;
+    height: 300px;
+    background: #f1f1f1;
+    overflow-y: auto;
+}
+
+.record_main aside {
+    display: inline-block;
+
+    margin: 20px 0 0 20px;
+}
+
+.record_main aside img {
+    width: 20px;
+    height: 20px;
+    margin-right: 2px;
+}
+
+.record_main aside span {
+    display: inline-block;
+    padding: 5px 20px;
+    background: #f1c40f;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.enter_add {
+    width: 100px;
+    height: 30px;
+    border: none;
+    color: #fff;
+    background: #ffd800;
+    border-radius: 20px;
+    margin-top: 10px;
+}

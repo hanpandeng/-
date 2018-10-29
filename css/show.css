@@ -1,0 +1,76 @@
+@charset "utf-8";
+@import url("gg.css");
+
+
+.title_box {}
+
+.title_box li {
+    width: 210px;
+    height: 310px;
+    float: left;
+    margin: 0 50px 50px 0;
+    padding: 10px;
+    background: #fff;
+    box-shadow: 0 0 5px #e8d87a;
+    border-radius: 10px;
+}
+
+
+.title img {
+    width: 60%;
+    padding: 0 20%;
+    margin: 20px 0;
+    box-sizing: content-box;
+}
+
+.last img {
+    width: 100%;
+    height: 100%;
+}
+
+.title_case,
+.title_text {
+    font-weight: 600;
+    margin: 10px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.title_case {
+    -webkit-line-clamp: 1;
+}
+
+.title_text {
+    -webkit-line-clamp: 2;
+}
+
+.title_case span,
+.title_text span {
+    color: #999;
+    font-weight: normal;
+}
+
+.button_box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px
+}
+
+.button_box a {
+    width: 45%;
+}
+
+.button_box button {
+    width: 100%;
+    padding: 5px 0;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background: #ffd800;
+}
+
+.button_box .delete {
+    background: #f14141;
+}

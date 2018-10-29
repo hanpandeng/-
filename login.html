@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>徽选官网后台管理系统登录</title>
+    <link rel="shortcut icon " type="images/x-icon" href="img/hx.png">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+
+    <!-- container-fluid start -->
+    <div class="container-fluid">
+
+        <header class="logo">
+            <img src="img/login/logo.png" alt="" srcset="">
+        </header>
+
+
+        <form action="get" method="dialog" class="form">
+            <h4>徽选，更懂你！</h4>
+
+            <nav>
+
+                <header class="userlogo">
+                    <img src="img/login/yonghu2.png" alt="" srcset="">
+                </header>
+
+                <div class="input">
+                    <input type="text" name="" id="" class="username" placeholder="用户名" maxlength="12">
+                    <img src="img/login/yonghu.png" alt="" srcset="">
+                </div>
+                <div class="input">
+                    <input type="password" name="" id="" class="password" placeholder="密码" maxlength="12">
+                    <img src="img/login/mima.png" alt="" srcset="">
+                </div>
+
+                <footer>
+                    <img src="img/login/gou2.png" alt="" srcset=""> 是否让计算机记住您的账号？
+                </footer>
+
+                <button class="login">登录</button>
+
+                <p class="no">账号或密码错误</p>
+
+            </nav>
+
+        </form>
+
+
+
+    </div>
+    <!-- container-fluid end -->
+
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+        $(function () {
+            $(".login").click(function () {
+                window.open("index.html", "_self");
+            })
+        })
+    </script>
+</body>
+
+</html>
